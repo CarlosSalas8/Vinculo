@@ -5,6 +5,7 @@ import { HomeIntro } from "@/components/home-intro"
 import { WhyTherapy } from "@/components/why-therapy"
 import { SessionInfo } from "@/components/session-info"
 import { CTA } from "@/components/cta"
+import { CircularImage } from "@/components/circular-image"
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Hero />
       <HomeIntro />
       <WhyTherapy />
+      <CircularImage />
       <SessionInfo />
       <CTA />
       <Footer />

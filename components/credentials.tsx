@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card"
-import { GraduationCap, Award, BookOpen } from "lucide-react"
+import { GraduationCap, Award, BookOpen } from 'lucide-react'
 
 export function Credentials() {
   const credentials = [
@@ -12,7 +12,7 @@ export function Credentials() {
     {
       icon: Award,
       title: "Máster en Psicología Forense",
-      institution: "Universidad Internacional de la Rioja (UNIR)",
+      institution: "Universidad Internacional de la Rioja",
       description: "Especialización en evaluación pericial y contextos legales",
     },
     {
@@ -33,6 +33,14 @@ export function Credentials() {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Respaldo profesional con formación continua y especializada
             </p>
+          </div>
+
+          <div className="mb-12 flex justify-center">
+            <img
+              src="/ainara5.jpeg"
+              alt="Psicóloga Itziar Ainara Salas Churo - Formación Académica"
+              className="rounded-lg shadow-lg object-cover aspect-[3/4] max-w-sm"
+            />
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">

@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card"
-import { Heart, Scale, Users, Brain, Smile, Compass, FileText, Shield } from "lucide-react"
+import { Heart, Scale, Users, Brain, Smile, Compass, FileText, Shield } from 'lucide-react'
 
 export function Services() {
   const psychotherapyServices = [
@@ -28,6 +28,11 @@ export function Services() {
       name: "Orientación Vocacional",
       description: "Guía para la toma de decisiones profesionales y académicas",
     },
+    {
+      icon: FileText,
+      name: "Emisión de Certificados",
+      description: "Documentación profesional para diferentes necesidades",
+    },
   ]
 
   const forensicServices = [
@@ -41,11 +46,6 @@ export function Services() {
       name: "Acompañamiento Emocional",
       description: "Apoyo psicológico durante procedimientos judiciales",
     },
-    {
-      icon: FileText,
-      name: "Emisión de Certificados",
-      description: "Documentación profesional para diferentes necesidades legales y personales",
-    },
   ]
 
   return (
@@ -58,6 +58,14 @@ export function Services() {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Atención integral para niños, jóvenes y adultos. Modalidad presencial y online.
             </p>
+          </div>
+
+          <div className="mb-12 flex justify-center">
+            <img
+              src="/ainara4.jpeg"
+              alt="Psicóloga Itziar Ainara Salas Churo - Servicios"
+              className="rounded-lg shadow-lg object-cover aspect-[3/4] max-w-sm"
+            />
           </div>
 
           <div className="space-y-12">
@@ -85,7 +93,7 @@ export function Services() {
 
             <div>
               <h3 className="text-2xl font-semibold mb-6 text-center">Área Legal y Forense</h3>
-              <div className="grid md:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-2 gap-6">
                 {forensicServices.map((service, index) => {
                   const Icon = service.icon
                   return (
