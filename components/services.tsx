@@ -25,13 +25,13 @@ export function Services() {
     },
     {
       icon: Compass,
-      name: "Orientación Vocacional",
-      description: "Guía para la toma de decisiones profesionales y académicas",
+      name: "Otros Problemas de Salud Mental",
+      description: "Tratamiento y apoyo para un amplio rango de síntomas y dificultades emocionales",
     },
     {
       icon: FileText,
       name: "Emisión de Certificados",
-      description: "Documentación profesional para diferentes necesidades",
+      description: "Evaluación y emisión de certificados de salud mental ",
     },
   ]
 

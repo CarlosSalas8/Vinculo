@@ -4,14 +4,14 @@ export function Hero() {
   return (
     <section 
       id="inicio" 
-      className="relative h-[600px] flex items-center justify-center overflow-hidden bg-pink-50" 
+      className="relative h-[300px] md:h-[600px] flex items-center justify-center overflow-hidden bg-pink-50" 
     >
       <img
         src="/ImageLogo.png"
         alt="Espacio terapéutico"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover" 
       />
-      <div className="absolute inset-0 bg-black/10" /> 
+      <div className="absolute inset-0 bg-black/2" /> 
     </section>
   )
 }

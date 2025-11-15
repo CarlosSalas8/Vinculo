@@ -35,7 +35,7 @@ export function About() {
 
               <Card className="p-6 border-accent/30">
                 <p className="text-base leading-relaxed font-medium">
-                  Las sesiones duran <span className="text-accent">1 hora</span> y son espacios libres de juicios, donde
+                  Las sesiones tienen una duración de <span className="text-accent">1 hora</span> y son espacios libres de juicios, donde
                   tu bienestar es la prioridad.
                 </p>
               </Card>
@@ -44,10 +44,10 @@ export function About() {
 
           <div className="space-y-8 mt-12">
             <Card className="p-8 bg-secondary/30">
-              <h3 className="text-2xl font-light mb-4 text-center">¿Quién soy realmente?</h3>
+              <h3 className="text-2xl font-light mb-4 text-center">¿Quién soy?</h3>
               <div className="space-y-4 text-lg leading-relaxed">
                 <p>
-                  Soy Itziar Ainara, y llegué a la psicología no solo por vocación académica, sino por una profunda
+                  Mi nombre es Ainara Salas, y mi camino a la psicología no solo fue por vocación académica, sino por una profunda
                   necesidad de entender el alma humana. Crecí creyendo que ayudar a los demás era el mejor camino para
                   darle sentido a la vida, y aquí estoy, acompañando procesos de sanación con la misma calidez con la
                   que me gustaría ser acompañada.
@@ -70,7 +70,7 @@ export function About() {
                 </div>
                 <h4 className="text-lg font-semibold mb-2">Mi enfoque</h4>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Trabajo desde la psicología clínica con herramientas cognitivo-conductuales, pero siempre adaptadas a
+                  Trabajo desde la psicología clínica con herramientas cognitivo-conductuales y contextuales, pero siempre adaptadas a
                   tu ritmo y necesidad.
                 </p>
               </Card>
