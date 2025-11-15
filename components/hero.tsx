@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section 
       id="inicio" 
-      className="relative h-[200px] md:h-[600px] flex items-center justify-center overflow-hidden bg-pink-50" 
+      className="relative h-[250px] md:h-[600px] flex items-center justify-center overflow-hidden bg-pink-50" 
     >
       <img
         src="/ImageLogo.png"
